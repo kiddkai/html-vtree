@@ -1,6 +1,8 @@
 HTML To VTree
 =============
 
+[![Build Status](https://travis-ci.org/kiddkai/html-vtree.svg?branch=master)](https://travis-ci.org/kiddkai/html-vtree)
+
 Conver your html code to [vtree](https://github.com/Matt-Esch/vtree), base on 2 things:
 
 1. [vtree](https://github.com/Matt-Esch/vtree)
