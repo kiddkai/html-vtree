@@ -1,0 +1,20 @@
+{
+  "name": "html-vtree",
+  "version": "0.0.0",
+  "description": "parse html to vtree",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htmlparser2": "^3.7.3",
+    "vtree": "0.0.16"
+  },
+  "devDependencies": {
+    "tape": "^2.13.4",
+    "rewire": "^2.1.0",
+    "sinon": "^1.10.3"
+  }
+}
