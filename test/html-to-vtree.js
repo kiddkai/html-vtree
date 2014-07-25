@@ -1,5 +1,5 @@
 var test = require('tape')
-  , htmlToVtree = require('..');
+  , htmlToVtree = require('../index');
 
 
 test('html to vtree', function(t) {
