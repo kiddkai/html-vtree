@@ -1,13 +1,13 @@
 {
   "name": "html-vtree",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "parse html to vtree",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/index.js | tap-spec"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "kiddkai",
+  "license": "MIT",
   "dependencies": {
     "htmlparser2": "^3.7.3",
     "vtree": "0.0.16"
