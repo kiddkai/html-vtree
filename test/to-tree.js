@@ -14,8 +14,8 @@ test('tag to tree', function(t) {
     children: []
   });
 
-  t.equal(vtree.tagName, 'p');
-  t.equal(vtree.children.length, 0);
+  t.equal(vtree.tagName, 'p', 'should convert a dom node');
+  t.equal(vtree.children.length, 0, 'should not have any children');
 
 });
 
@@ -29,7 +29,7 @@ test('text to tree', function(t) {
     children: []
   });
 
-  t.equal(vtree.text, 'abc');
+  t.equal(vtree.text, 'abc', 'should convert a text node');
 
 });
 
@@ -42,9 +42,8 @@ test('nexted to tree', function(t) {
     var vtree = toTree(dom);
 
 
-    t.equal(vtree.tagName, 'div');
-    t.equal(vtree.children[0].tagName, 'p');
-    t.equal(vtree.children[0].children[0].text, 'this is text');
+    t.equal(vtree.tagName, 'div', 'should parse the root node');
+    t.equal(vtree.children[0].tagName, 'p', 'should parse the child node');
+    t.equal(vtree.children[0].children[0].text, 'this is text', 'should parse the nexted text');
   });
-
 });

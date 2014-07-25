@@ -4,7 +4,7 @@
   "description": "parse html to vtree",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/index.js"
+    "test": "node ./test/index.js | tap-spec"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "tape": "^2.13.4",
     "rewire": "^2.1.0",
-    "sinon": "^1.10.3"
+    "sinon": "^1.10.3",
+    "tap-spec": "^0.2.0"
   }
 }
