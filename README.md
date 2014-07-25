@@ -24,3 +24,7 @@ htmlToVtree('<div>hello world</div>', function(err, vtree) {
   console.log(vtree);
 });
 ```
+
+
+MIT
+----
